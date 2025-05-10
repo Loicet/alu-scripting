@@ -1,2 +1,8 @@
 #!/usr/bin/env ruby
-puts ARGV [0].scan(/^htb{1,2}n$/).join
+
+input = ARGV[0]
+
+if input =~ /^hb*t?n$/
+  puts input
+end
+
