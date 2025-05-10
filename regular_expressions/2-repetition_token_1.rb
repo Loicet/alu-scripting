@@ -2,7 +2,7 @@
 
 input = ARGV[0]
 
-if input =~ /^hb*t?n$/
+if input =~ /^hb*tn$/
   puts input
 end
 
